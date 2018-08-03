@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/home_icon"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_diagnosa"
+            android:icon="@drawable/tindakan_ico"
+            android:title="Diagnosis" />
+        <!--<item-->
+            <!--android:id="@+id/nav_aktivitas"-->
+            <!--android:icon="@drawable/jadwal_ico"-->
+            <!--android:title="Tambah Aktivitas" />-->
+        <item
+            android:id="@+id/nav_resep"
+            android:icon="@drawable/resep_ico"
+            android:title="Resep" />
+        <item
+            android:id="@+id/nav_discharge"
+            android:icon="@drawable/discharge"
+            android:title="Pemulangan Pasien" />
+    </group>
+
+</menu>

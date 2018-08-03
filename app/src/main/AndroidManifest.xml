@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dokter.yacob.dokter">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.dokter.yacob.dokter.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dokter.yacob.dokter.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.DetailPasienActivity"
+            android:label="@string/title_activity_detail_pasien"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.dokter.yacob.dokter.ResepActivity"
+            android:label="Resep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.TambahResepActivity"
+            android:label="Tambah Resep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.DetailResepActivity"
+            android:label="Detail Resep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.DiagnosaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.UbahProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.ProfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.UbahPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.ActivityTTV"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PemberianObat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PesanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PengkajianAwalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PengkajianAwalActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PengkajianAwalActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PengkajianAwalActivity4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dokter.yacob.dokter.PengkajianAwalActivity5"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.dokter.yacob.dokter.ResetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            ></activity>
+    </application>
+
+</manifest>
